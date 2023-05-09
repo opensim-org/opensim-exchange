@@ -1,4 +1,17 @@
-#pyinstaller --onefile --noconsole --add-data "C:\Users\Usuario\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\ahrs\utils\WMM2020\WMM.COF;ahrs\utils\WMM2020" --hidden-import=xml.etree.ElementTree --hidden-import=xml.dom.minidom --hidden-import=tkinter --hidden-import=filedialog --hidden-import=ttk --hidden-import=numpy --hidden-import=pandas --hidden-import=os --hidden-import=webbrowser --hidden-import=scipy.spatial.transform.Rotation --hidden-import=subprocess --hidden-import=matplotlib.pyplot --hidden-import=ahrs.filters --hidden-import=Vec3 --hidden-import=datetime --hidden-import=scipy.signal imu2sto.py
+"""
+License
+This project is licensed under the MIT License. See the https://opensource.org/license/mit/ for details.
+
+Usage
+You are free to use, modify, and distribute this app as long as you include a copy of the license and give credit to the original author. If you make improvements to the app, I encourage you to share them with the community by contributing to this repository.
+
+Support
+If you have any questions or issues with the app, please open an issue on GitHub and I will do my best to assist you. https://github.com/raulmartingomez/opensim-exchange/tree/imu2sto/python/IMU_to_quaternions_and_sto
+
+Create the .exe file using pyinstaller --onefile --noconsole --add-data "C:\Users\Usuario\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\ahrs\utils\WMM2020\WMM.COF;ahrs\utils\WMM2020" --hidden-import=xml.etree.ElementTree --hidden-import=xml.dom.minidom --hidden-import=tkinter --hidden-import=filedialog --hidden-import=ttk --hidden-import=numpy --hidden-import=pandas --hidden-import=os --hidden-import=webbrowser --hidden-import=scipy.spatial.transform.Rotation --hidden-import=subprocess --hidden-import=matplotlib.pyplot --hidden-import=ahrs.filters --hidden-import=Vec3 --hidden-import=datetime --hidden-import=scipy.signal imu2sto.py
+Or ownload the .exe from: https://drive.google.com/file/d/1a9Yi1s-NgWQ5Ai5VtkCdVntGkuL9yEuh/view?usp=sharing
+Android app created for IMU data collection with Movesense devices: https://play.google.com/store/apps/details?id=appinventor.ai_raulmartinphd.BLE_Movesense_IMU10
+"""
 
 import xml.etree.ElementTree as ET
 import xml.dom.minidom
